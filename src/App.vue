@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import FileUpload from "./components/FileUpload.vue";
+</script>
 
-<template></template>
+<template>
+  <FileUpload />
+</template>
 
 <style scoped></style>
