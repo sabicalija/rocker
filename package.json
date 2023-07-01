@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "opensheetmusicdisplay": "^1.8.0",
+    "verovio": "^3.15.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.63.6",
     "vite": "^4.3.9"
   }
 }
