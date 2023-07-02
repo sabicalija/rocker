@@ -7,29 +7,13 @@
 </template>
 
 <script setup>
-import { ref, version } from "vue";
-// import { toolkit } from "verovio";
-
-// import createVerovioModule from "verovio/wasm";
-// import { VerovioToolkit } from "verovio/esm";
-
+import { ref } from "vue";
 import verovio from "verovio";
 
 const file = ref(null);
 const svg = ref("");
 
-// const tk = new toolkit({
-//   pageHeight: 5000,
-//   pageWidth: 1000,
-//   adjustPageHeight: true,
-//   scale: 50,
-// });
-
 let tk = null;
-
-// createVerovioModule().then((VerovioModule) => {
-//   tk = new VerovioToolkit(VerovioModule);
-// });
 
 verovio.module.onRuntimeInitialized = function () {
   tk = new verovio.toolkit();
