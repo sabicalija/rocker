@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@types/verovio':
+    specifier: ^3.13.0
+    version: 3.13.0
   opensheetmusicdisplay:
     specifier: ^1.8.0
     version: 1.8.0
@@ -278,6 +281,10 @@ packages:
     engines: {node: '>= 10'}
     dev: false
     optional: true
+
+  /@types/verovio@3.13.0:
+    resolution: {integrity: sha512-+kaovYH/iWrjhJjteUTQZNKkBpQeZ5EQwtS3c7k/8IbYJKfG3mdmP+1GhYBX5DMRUTivsVwULCS4hq4pFtd9ig==}
+    dev: false
 
   /@types/vexflow@1.2.38:
     resolution: {integrity: sha512-OmEfhv07molNFqbOJ/UD2bUHZbeUzKo4aj+jpe21Ce8+xY2ihCXwcUcfSHv0oCVdnw/cpkPxQcIyLh/MCd7e/g==}
