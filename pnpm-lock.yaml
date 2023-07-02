@@ -1,15 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
-  '@types/verovio':
-    specifier: ^3.13.0
-    version: 3.13.0
   opensheetmusicdisplay:
     specifier: ^1.8.0
     version: 1.8.0
-  verovio:
-    specifier: ^3.15.0
-    version: 3.15.0
   vue:
     specifier: ^3.2.47
     version: 3.2.47
@@ -281,10 +275,6 @@ packages:
     engines: {node: '>= 10'}
     dev: false
     optional: true
-
-  /@types/verovio@3.13.0:
-    resolution: {integrity: sha512-+kaovYH/iWrjhJjteUTQZNKkBpQeZ5EQwtS3c7k/8IbYJKfG3mdmP+1GhYBX5DMRUTivsVwULCS4hq4pFtd9ig==}
-    dev: false
 
   /@types/vexflow@1.2.38:
     resolution: {integrity: sha512-OmEfhv07molNFqbOJ/UD2bUHZbeUzKo4aj+jpe21Ce8+xY2ihCXwcUcfSHv0oCVdnw/cpkPxQcIyLh/MCd7e/g==}
@@ -1753,11 +1743,6 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
-    dev: false
-
-  /verovio@3.15.0:
-    resolution: {integrity: sha512-H4GlXxKGotHaXf9oCLaobJhC2myQ59t5YM4Ykd4St604hWkO4USv6szFDAZMr/yjrJJBd4/BIzddzOOE3cXKNQ==}
-    engines: {node: '>= 14.17.0'}
     dev: false
 
   /vexflow@1.2.93:
